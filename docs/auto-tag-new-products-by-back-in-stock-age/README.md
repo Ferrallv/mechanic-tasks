@@ -1,5 +1,7 @@
 # Auto-tag new products by "back in stock" age
 
+Tags: Auto-Tag, Metafields, Products, Watch
+
 This task monitors changes to inventory level, records the time at which a product's total inventory passes your configured threshold, and then maintains a set of tags indicating how recently the product returned to "back in stock" status.
 
 * View in the task library: [usemechanic.com/task/auto-tag-new-products-by-back-in-stock-age](https://usemechanic.com/task/auto-tag-new-products-by-back-in-stock-age)
@@ -16,7 +18,7 @@ This task monitors changes to inventory level, records the time at which a produ
     "new-5": "5",
     "new-9999": "9999"
   },
-  "run_daily__boolean": false,
+  "run_daily__boolean": true,
   "run_hourly__boolean": false
 }
 ```

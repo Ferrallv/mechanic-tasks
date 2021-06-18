@@ -1,5 +1,7 @@
 # Auto-remove a product tag x days after it's added
 
+Tags: Auto-Tag, Schedule, Untag
+
 Use this this task to monitor for the addition of a new product tag, and to schedule the product to be untagged some number of days later. Useful for temporarily adding a product to a collection, or qualifying the product for some other temporary functionality.
 
 * View in the task library: [usemechanic.com/task/auto-remove-a-product-tag-x-days-after-its-added](https://usemechanic.com/task/auto-remove-a-product-tag-x-days-after-its-added)
@@ -20,7 +22,6 @@ Use this this task to monitor for the addition of a new product tag, and to sche
 ## Subscriptions
 
 ```liquid
-shopify/products/create
 shopify/products/update
 user/task/untag_product
 ```

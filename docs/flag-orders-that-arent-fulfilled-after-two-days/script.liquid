@@ -5,8 +5,18 @@
   {% assign order["cancelled_at"] = nil %}
   {% assign order["email"] = "customer@example.com" %}
   {% assign order["name"] = "#1234" %}
+  {% assign order["id"] = 1234567890 %}
 {% else %}
   {% assign order = order.reload %}
+{% endif %}
+
+{% if order == nil %}
+  {% comment %}
+    Happens when the order has been deleted
+  {% endcomment %}
+
+  {% log "Order has been deleted; skipping" %}
+  {% break %}
 {% endif %}
 
 {% assign order_qualifies = false %}
