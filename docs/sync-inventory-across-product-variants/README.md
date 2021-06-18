@@ -1,5 +1,7 @@
 # Sync inventory across product variants
 
+Tags: Inventory, Products, Sync, Variants
+
 Useful for multiple price points, or for offering customizations of the same item, this task lets you offer multiple variant listings for what is ultimately the same stock. A purchase of a particular variant results in the inventory for all other variants, for the same product, being lowered by the amount ordered.
 
 * View in the task library: [usemechanic.com/task/sync-inventory-across-product-variants](https://usemechanic.com/task/sync-inventory-across-product-variants)
@@ -42,7 +44,7 @@ Useful for multiple price points, or for offering customizations of the same ite
 
 * This task only works with a single location. Multiple locations are not supported.
 * To manually change inventory levels for a product, adjust _only one_ variant to the desired level. During the next scheduled run, the task will bring the other variants into sync.
-* By default, Mechanic will check your inventory every 10 minutes. Feel free to change that subscription to "mechanic/scheduler/hourly", or [something else that suits your needs](https://help.usemechanic.com/events/all-event-topics#mechanic).
+* By default, Mechanic will check your inventory every 10 minutes. Feel free to change that subscription to "mechanic/scheduler/hourly", or [something else that suits your needs](https://learn.mechanic.dev/core-concepts/events/event-topic-reference/mechanic#scheduler).
 
 ## Installing this task
 
